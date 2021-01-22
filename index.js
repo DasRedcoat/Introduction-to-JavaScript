@@ -18,6 +18,13 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge = 18
+  if (votingAge >= 18) {
+    console.log(true);
+  }
+  else if (votingAge < 18) {
+    console.log(false);
+  }
 
 
 /*
@@ -31,6 +38,12 @@ Do the following:
    HINT: no function required
 */
 
+let fiver = 5
+let tenner = 10
+  if (tenner === 10) {
+    fiver = 4
+  }
+console.log (fiver)
 
 
 
@@ -46,8 +59,11 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let year = "1999"
+if (year === "1999") {
+  year = 1999;
+}
+console.log (year);
 
 /*
 Task 1d - Multiply
@@ -75,10 +91,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
-}
-
+function dogYears(humanYears * 7) {
+  if (humanYears = num)
+  return (humanYears * 7);
+  }
+console.log(dogYears(1);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
