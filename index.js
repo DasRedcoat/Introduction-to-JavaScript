@@ -3,7 +3,7 @@
 /*MAKE SURE TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
 
 /*
-When doing these tasks, we recommend using console.log to test the output of your code to make sure it works correctly..
+When doing these tasks, we recommend using console.log to test the output of your code to make sure it works correctly.
 This will usually entail console logging the answer directly or console logging the invocation (call) of the function so when it
 returns a value, that value will be logged to the console.  An example of this would be:  console.log(theFunction(value1,value2))
 */
@@ -18,6 +18,16 @@ Do the following:
    HINT: no function required
 */
 
+// var votingAge = 18 
+
+//   if (votingAge >= 18 {
+//     console.log (true);
+//   }
+//   else (votingAge =< 17) {
+//     console.log (false);
+//   }
+
+// console.log(votingAge(20))
 
 
 /*
@@ -32,6 +42,14 @@ Do the following:
 */
 
 
+// let a = 5
+// let b = 10
+  
+//   if (b === 10) {
+//     a = 6
+//   }
+
+// console.log(a)
 
 
 
@@ -47,6 +65,12 @@ Do the following:
 */
 
 
+// let year = "1999"
+//   if (year === "1999") {
+//     console.log(1999);
+//   }
+// console.log(year)
+
 
 
 /*
@@ -58,9 +82,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b) {
+    return (a * b);
   }
+console.log(multiply(5,10))
 
 
 
@@ -74,10 +99,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(humanYears) {
+    return (humanYears * 7);
 }
-
+console.log(dogYears(2));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -107,10 +132,23 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, age){
+  if (age >= 1 && weight <= 5) {
+    return (weight * .05)
   }
-
+  else if (age >= 1 && weight > 5 && weight <= 10) {
+    return (weight * .04)
+  }
+  else if (age >= 1 && weight > 10 && weight<=15) {
+    return (weight * .03)
+  }
+  else if (age >= 1 && weight > 15) {
+    return (weight * .02)
+  }
+  // Puppies
+  else if (age < 1 && weight )
+}
+console.log(hungryDog(4, .8))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
